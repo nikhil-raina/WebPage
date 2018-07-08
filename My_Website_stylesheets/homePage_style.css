@@ -8,19 +8,25 @@
 /*change the text font*/
 #header h1{
     text-align: center;
-    top: -60px;
-    text-transform: capitalize;
+    top: -40px;
+    text-transform: uppercase;
     width: 100%;
     color: black;
     position: absolute;
-    font-size: 90px;
+    font-size: 80px;
 }
 
 /*change the text font */
 #navigation a{
-    font-size: 22px;
+    /*position: absolute;*/
+    font-size: 30px;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
 
+}
+
+#to_top{
+    font-size: 20px;
+    text-align: right;
 }
 
