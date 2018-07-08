@@ -1,0 +1,26 @@
+/*manages the things regarding the background */
+/*fade out the image a bit since it is in black or white... otherwise ask jesal for another indea...*/
+#bk_img{
+    /*filter:brightness(50%);*/
+    /*background-size: cover;*/
+}
+
+/*change the text font*/
+#header h1{
+    text-align: center;
+    top: -60px;
+    text-transform: capitalize;
+    width: 100%;
+    color: black;
+    position: absolute;
+    font-size: 90px;
+}
+
+/*change the text font */
+#navigation a{
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
