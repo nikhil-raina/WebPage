@@ -1,8 +1,14 @@
 /*manages the things regarding the background */
 /*fade out the image a bit since it is in black or white... otherwise ask jesal for another indea...*/
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
 #bk_img{
     /*filter:brightness(50%);*/
     /*background-size: cover;*/
+    background-blend-mode: screen;
 }
 
 /*change the text font*/
@@ -12,8 +18,12 @@
     text-transform: uppercase;
     width: 100%;
     color: black;
-    position: absolute;
-    font-size: 80px;
+    /*position: absolute;*/
+    font-size: 120px;
+    float: top;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    /*mso-font-width: 1px;*/
 }
 
 /*change the text font */
@@ -22,11 +32,30 @@
     font-size: 30px;
     text-decoration: none;
     text-transform: capitalize;
+    font-family: Arial;
 
 }
 
 #to_top{
     font-size: 20px;
-    text-align: right;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+/*When clicked, make it appear like its been clicked
+    like some 3d kinda thing*/
+.categories:active{
+
+}
+
+/*when going on top of the links... make so me design
+    on them or so... to look like... you are going to
+    select this one. */
+.categories:hover{
+
 }
 
