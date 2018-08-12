@@ -172,7 +172,8 @@
                             <div class="part-category-content">
                                 <h4 class="part-category-heading">CSV File</h4>
                                     <div class="content-intro">
-                                        The CSV File
+                                        A CSV File is a Comma Separated File. It usually contains a cluster of data that in a raw format, not
+                                        having any specific 'fancyful' representation.
                                     </div>
 
                                     <div class="image-box" id="image_b1_1">
@@ -181,7 +182,15 @@
                                     </div>
                                     <div class="content-box" id="content_b1_1">
                                         <p>
-                                            Main DATA FILE
+                                            I created this file as the main universal DATA file, which would consists all the API generated work. <br>
+                                            The getData() is responsible to traverse through the report API of the SaltyCloud URL and
+                                            get all the necessary data that would later be implemented by the programmer in whichever way they would want to.
+                                            The data was formatted with a cluster of nested dictionaries and nested lists.<br>
+                                            The unit_questions_data() would be called by the getData() when it had to retrieve each assessment Org_Unit_Question data.<br>
+                                            The get_graph_data() got the each graph specific data with the help of the Survey_ID of each assessment.
+                                            The heat_map_data() got all the data from the Unit_Questions API, further into the Reports section, in order to
+                                            generate Heat Maps for the Org_Unit_Questions and the category based Org_Unit_Questions as well.
+                                            The getSurvey_ID was responsible to get the survey ID of a specific assessment.
                                         </p>
                                     </div>
 
@@ -191,7 +200,8 @@
                                     </div>
                                     <div class="content-box" id="content_b2_1">
                                         <p>
-                                            csvConverter file
+                                            The file would be getting all the data from the <a href="#content_b1_1">getData</a> module. Then, based
+                                            on the predefined template, it would call the makeCSV() each iteration to fill in the CSV Text File.
                                         </p>
                                     </div>
                             </div>
